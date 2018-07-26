@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-mutebutton-controller",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-mutebutton-controller",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrispyFriedPig/cordova-plugin-mutebutton-controller.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "qisheng.tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrispyFriedPig/cordova-plugin-mutebutton-controller/issues"
+  },
+  "homepage": "https://github.com/CrispyFriedPig/cordova-plugin-mutebutton-controller#readme"
+}
