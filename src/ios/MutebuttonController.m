@@ -19,8 +19,8 @@
     if (echo != nil && [echo length] > 0) {
         CGFloat width = image.size.width;
         CGFloat height = image.size.height;
-        NSDictionary *dic = @{@"width":[NSString stringWithFormat:@"%d",width],
-                              @"height":[NSString stringWithFormat:@"%d",height]};
+        NSDictionary *dic = @{@"width":[NSString stringWithFormat:@"%.f",width],
+                              @"height":[NSString stringWithFormat:@"%.f",height]};
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:dic];
     } else {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
